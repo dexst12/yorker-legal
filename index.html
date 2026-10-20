@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yorker — Live Cricket Scores, Series, and News</title>
+  <meta name="description" content="Yorker delivers lightning-fast live cricket scores, ball-by-ball commentary, series schedules, and breaking news.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0714;
+      --card-bg: #140d24;
+      --border: #261942;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --primary: #a855f7;
+      --primary-accent: #ffb800;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    .hero {
+      max-width: 640px;
+      text-align: center;
+    }
+    .app-icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #a855f7, #6b21a8);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      box-shadow: 0 10px 25px rgba(168, 85, 247, 0.35);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.75rem;
+    }
+    p.lead {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+    }
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .nav-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .nav-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .nav-card .icon {
+      font-size: 1.5rem;
+    }
+    .nav-card .label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    footer {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      width: 100%;
+      max-width: 640px;
+      text-align: center;
+    }
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="app-icon">🏏</div>
+    <h1>Yorker</h1>
+    <p class="lead">The pitch, in your pocket. Live cricket scores, ball-by-ball commentary, series fixtures, and editorial news.</p>
+
+    <div class="nav-grid">
+      <a href="privacy.html" class="nav-card">
+        <span class="icon">🔒</span>
+        <span class="label">Privacy Policy</span>
+      </a>
+      <a href="terms.html" class="nav-card">
+        <span class="icon">📄</span>
+        <span class="label">Terms of Use</span>
+      </a>
+      <a href="mailto:support@yorker.app" class="nav-card">
+        <span class="icon">✉️</span>
+        <span class="label">Support Email</span>
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Yorker. All rights reserved. • Contact: <a href="mailto:support@yorker.app">support@yorker.app</a></p>
+    </footer>
+  </div>
+</body>
+</html>
