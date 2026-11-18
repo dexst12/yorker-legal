@@ -4,4 +4,4 @@ Public Privacy Policy and Terms of Use web pages for **Yorker** (Cricket Scores,
 
 - **Privacy Policy**: [privacy.html](privacy.html)
 - **Terms of Use**: [terms.html](terms.html)
-- **Support**: support@yorker.app
+- **Support**: dexst12@gmail.com
